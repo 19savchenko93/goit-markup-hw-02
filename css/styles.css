@@ -1,0 +1,50 @@
+/* General styles */
+:root {
+    --main-text-color: #757575;
+    --title-text-color: #212121;
+    --white-text-color: #FFFFFF;
+    --accent-color: #2196F3;
+    --background-main: #E5E5E5;
+    --backgroun-white: #FFFFFF;
+    --background-accent: #2F303A;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--background-main);
+
+}
+
+/* Header */
+.header {
+    background-color: var(--backgroun-white);
+
+}
+.logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #000000;
+    text-decoration: none;
+}
+.logo-accent {
+    color: var(--accent-color);
+}
+.navigation-list {
+    list-style: none;
+}
+.navigation-item>a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14 letter-spacing: 0.02em;
+    color: var(--title-text-color);
+}
+/* .navigation-item:hover,
+.navigation-item:focus,
+.navigation-item:active, {
+    color: var(--accent-color) */
+}
+/* Hero */
